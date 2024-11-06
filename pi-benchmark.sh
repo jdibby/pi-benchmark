@@ -30,7 +30,7 @@ if [ -f /proc/device-tree/model ]; then
     fi
 else
    echo "#######################################################################"
-   echo "############## UNSUPPORTED OPERATING SYSTEM ##############"
+   echo "##############${BOLD} UNSUPPORTED OPERATING SYSTEM ${NORMAL}##############"
    echo "#######################################################################"
    exit 1
 fi
